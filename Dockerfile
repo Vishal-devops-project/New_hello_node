@@ -9,5 +9,5 @@ FROM node:14-alpine
 WORKDIR /vishal
 COPY --from=build /vishal .
 COPY . .
-EXPOSE 3000
+EXPOSE 4000
 CMD ["node", "index.js"]
